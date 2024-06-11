@@ -1,0 +1,13 @@
+This video discusses the important aspects of the machine learning model life cycle beyond just training and deployment, including feature store, model performance monitoring, and real-time drift detection.
+
+
+Key moments:
+00:01 The video discusses the importance of feature store beyond model training and deployment in ensuring accurate model predictions with live data similar to training data.
+          -Feature store ensures live data is similar to training data for accurate model predictions, avoiding discrepancies due to changing statistical properties. 
+          -Creating feature definitions and registering important features are crucial steps in implementing a feature store for machine learning models. 
+05:23 Model serving involves deploying the model, reading new data, and producing model output. Storing model output is crucial for validating model performance over time and ensuring consistent good performance.
+          -The process of model serving includes reading the model from the model registry, fetching new data from the online store, and generating model output based on the input data.
+          -Storing model output is essential for validating model performance by comparing it with ground truth values over time and deciding on model retraining based on performance deviations.
+08:19 Real-time model monitoring is crucial for checking and validating model performance periodically when ground truths are available. Drift detection and retraining are essential for maintaining model accuracy and performance over time.
+          -Different detectors, both offline and online, play a key role in monitoring and maintaining model performance. They follow statistical methods and may require retraining based on data changes.
+          -Regular scheduling of drift detection and retraining based on data changes ensures model accuracy and performance. Real-time monitoring helps in adapting to evolving data patterns.
