@@ -1,0 +1,15 @@
+MLOps is the set of practices used to deploy machine learning models in production reliably and efficiently, including data versioning, experiment tracking, feature store, model registry, model deployment, monitoring, and drift detection.
+
+
+Key Points:
+Machine Learning Operations (MLOps) involves deploying ML models in production efficiently and reliably, ensuring good model accuracy over time, and continuous monitoring for optimal performance.
+          -Data versioning is crucial for replicating model performance over time as data changes, ensuring consistent model behavior for the same problem.
+          -Experiment tracking, or model tracking, involves storing different model training experiments with varied parameters to compare and identify the optimal performing model.
+Experiment tracking and model tracking are crucial in industry, with MLflow being a widely used tool for this purpose. Feature store, model registry, and model deployment are key concepts in ML ops for efficient model management and deployment.
+          -MLflow is a popular tool for experiment and model tracking in industry, ensuring efficient management of machine learning projects.
+          -Feature store plays a vital role in storing and serving features with low latency during online prediction, enhancing model performance.
+          -Model registry facilitates versioning and storage of different model versions, crucial for tracking model changes and ensuring reproducibility.
+Understanding the importance of continuous training in machine learning models is crucial for maintaining performance. Model explainability is essential for users to comprehend model outputs and build trust in the results.
+          -Concept drift, related to changes in target variables due to external factors like pandemics, is crucial in model preparation. Monitoring model performance degradation requires actions like continuous training to trigger model retraining automatically.
+          -Building pipelines and scheduling tools are essential post continuous training to automate model maintenance. Model explainability addresses the black box issue by providing reasoning behind model outputs and key features.
+          -Key concepts in machine learning operations (MLOps) include data versioning, experiment tracking, feature store, model registry, deployment, monitoring, and explainability. Understanding these topics is vital for success in interviews and MLOps.
