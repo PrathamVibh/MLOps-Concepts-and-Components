@@ -1,0 +1,19 @@
+Experiment tracking in machine learning, focusing on its importance, the concept of experiments, and the need for tracking. It emphasizes how experiment tracking aids in storing and comparing different models and their components, such as input data, parameters, and metrics, to determine the optimal performance for a model.
+
+**Highlights**:
++ **Introduction to Experiment Tracking**
+    * Defines experiment tracking in ML
+    * Importance of recording experiments
+    * Components like input data, parameters, and metrics
++  **Understanding Experiments**
+    * Explains what constitutes an experiment
+    * The impact of varying input on output
+    * Recording changes and their effects
++  **The Need for Experiment Tracking**
+    * Importance of tracking for reproducibility
+    * Helps compare model versions
+    * Aids in decision-making for model optimization
++  **Tools for Experiment Tracking**
+    * Introduction to MLFlow for tracking
+    * Detailed video on using MLFlow
+    * Importance of data versioning for reproducibility
