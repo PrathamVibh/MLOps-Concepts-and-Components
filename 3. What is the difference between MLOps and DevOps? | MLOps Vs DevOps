@@ -1,0 +1,18 @@
+The differences between MLOps and DevOps. It outlines the main components of each practice and highlights the additional elements in MLOps that cater to machine learning model deployment, maintenance, and performance monitoring in production environments.
+Highlights
++ **Understanding DevOps**
+    * Focuses on decreasing the development life cycle
+    * Emphasizes continuous integration (CI) and continuous delivery (CD)
+    * Involves code versioning, automatic testing, CI, and CD
++ **Introduction to MLOps**
+    * Aims to deploy and maintain ML models efficiently
+    * Ensures reliable model performance in production
+    * Includes continuous monitoring and training mechanisms
++  **Comparison of Components**
+    * Version control in DevOps is code-centric, while MLOps also includes data versioning
+    * MLOps incorporates specific data-related testing like hypothesis testing
+    * Continuous integration and delivery are similar in both practices
++  **Distinguishing MLOps from DevOps**
+    * MLOps deals with data and model performance, requiring continuous monitoring
+    * Introduces continuous training (CT) as an additional component
+    * Addresses data drift and concept drift to maintain model accuracy
