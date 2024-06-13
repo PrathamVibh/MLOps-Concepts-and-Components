@@ -1,0 +1,19 @@
+The concept of data versioning in machine learning and its significance within MLOps. It emphasizes the importance of reproducibility, traceability, and linearity in the machine learning lifecycle and introduces various open-source tools used for data versioning.
+
+**Highlights**:
++  **Introduction to Data Versioning**
+    * Explains data versioning as a crucial component of MLOps
+    * Compares it to code versioning, emphasizing versioning of data changes over time
+    * Highlights the process of storing and applying versions to data
++  **Reproducibility in MLOps**
+    * Defines reproducibility and its role in maintaining older working versions
+    * Discusses the necessity of data versioning for reloading past experiments
+    * Stresses on repeatability and traceability in machine learning projects
++  **Data Versioning Tools**
+    * Introduces DVC (Data Version Control) as a storage agnostic tool
+    * Describes PatchIDOM's incremental processing capabilities
+    * Explains Lake FS and Delta Lake's features, including ACID transactions
++  **Other Data Versioning Tools**
+    * Mentions additional tools like Neptune, dot, and Git LFS
+    * Focuses on open-source tools for immediate use without cost
+    * Encourages viewers to like, subscribe, and share the video
